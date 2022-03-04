@@ -1,13 +1,16 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import s from '../Contacts/Contacts.module.css'
 
 const Contacts = ({title}) => {
 
 return (
-    <>
-    <h2>{title}</h2>
+    <div className={s.section}>
+    <h2 className={s.title}>{title}</h2>
+   
+
      
-    </>
+    </div>
 )
 
 }

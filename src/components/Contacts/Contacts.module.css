@@ -1,0 +1,11 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: rgba(75, 75, 62, 0.685);
+  font-size: 30px;
+  font-weight: 700;
+}
