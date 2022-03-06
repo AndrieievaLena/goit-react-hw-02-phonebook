@@ -15,7 +15,11 @@ handleChange = e => {
 }
 handleSubmit =e => {
     e.preventDefault();
+    this.reset();
 }
+reset = () => {
+ this.setState ({name: '',number: ''});
+};
 render(){
      
 return (
