@@ -1,9 +1,9 @@
-import React from 'react';
+import React,{Component} from 'react';
 import avatar from '../images/avatar.jpg';
 import phone from "../images/phone.jpg";
 import s from '../Form/Form.module.css'
 
-class Form extends React.Component {
+class Form extends Component {
 state = {
     name: '',
     number: ''

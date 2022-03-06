@@ -1,4 +1,3 @@
-import React from 'react';
 import propTypes from 'prop-types';
 import ImageIcon from "../images/book.jpg";
 import s from '../Section/Section.module.css';

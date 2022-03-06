@@ -1,10 +1,10 @@
-import React from "react";
+import React,{Component} from "react";
 import Section from '../Section/Section';
 import Contacts from '../Contacts/Contacts';
 import Form from '../Form/Form';
 
 
-class Phonebook extends React.Component{
+class Phonebook extends Component{
     state = {
         contacts: [],
         
