@@ -16,6 +16,7 @@ handleChange = e => {
 handleSubmit =e => {
     e.preventDefault();
     this.reset();
+    this.props.onSubmit(this.state.name,this.state.number)
 }
 reset = () => {
  this.setState ({name: '',number: ''});
